@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <div style="height: auto; width: 50%; background-color: lightsteelblue;">
+            <h1 style="color: navy; background-color: lightblue;">Bio data</h1>
+            <form>
+                <label for="fullName">FullName</label>
+                <input type="text" id="fullName" placeholder="Enter Full Name" minlength="3" maxlength="15" name="fullName" required>
+                <br><br>
+                <label for="age">Age</label>
+                <input type="number" placeholder="Enter Age" id="age" name="age" min="18" max="30" required >
+
+                <br><br>
+                <label for="">Gender</label>
+                <input type="radio" name="gender" value="male" id="male" >
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="female" id="female">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" value="others" id="others">
+                <label for="others">Others</label>
+
+                <br><br>
+                <label for="skills">Skills</label>
+                <input type="checkbox" name="skills" value="cooking" id="cooking">
+                <label for="cooking">Cooking</label>
+                <input type="checkbox" name="skills" value="singing" id="singing">
+                <label for="singing">Singing</label>
+                <br><br>
+                <label for="job">job</label>
+                 <select name="job" id="job">
+                    <option value="engineer">Engineer</option>
+                    <option value="doctor">doctor</option>
+                    <option value="grapic designer">Grapic Designer</option>
+                 </select> 
+                 <br><br>
+
+                 <label for="Qualification">Qualification</label>
+                 <select name="qualification" id="Qualification">
+                    <option value="graduate">Graduate</option>
+                    <option value="postgraduate">Post Graduate</option>
+                    <option value="master">Master</option>
+                 </select>
+                 <br><br>
+
+                 <label for="Salary">Salary in LPA</label>
+                 <input type="number" min="5" id="Salary" placeholder="Salary in LPA">
+
+                 <label for="zodiac">Zodiac</label>
+                 <input type="radio" name="zodiac" id="arise" value="arise">
+                 <label for="arise">Arise</label>
+                 <input type="radio" name="zodiac" id="taurus" value="taurus">
+                 <label for="taurus">Taurus</label>
+                 <input type="radio" name="zodiac" id="gemini" value="gemini">
+                 <label for="taurus">Gemini</label>
+                 <br><br>
+
+                 <fieldset>
+                    <legend>Address</legend>
+                    <label for="housenumber">House Number</label>
+                    <input type="number"  name="Housenumber" id="housenumber" required>
+                    <br><br>
+                    <label for="Street">Street Name</label>
+                    <input type="text" name="streetname" id="Street" required>
+                    <br><br>
+                    <label for="pin">Pin Code</label>
+                    <input type="text" id="pin" placeholder="zip code" pattern="[0-9]{6}">
+                 </fieldset>
+                 <br><br>
+
+                 <label for="dob">Dob of birth</label>
+                 <input type="date" name="dob" id="dob" min="1996-01-01" max="2008-12-31">
+                 <br><br>
+
+                 <label for="religion">Religion</label>
+                 <input type="radio" name="Religion" id="hindu" value="hindu">
+                <label for="hindu">Hindu</label>
+                
+                <input type="radio" name="Religion" id="Christin" value="Ch">
+                <label for="Christin">Christin</label>
+
+                <input type="radio" name="Religion" id="Muslim" value="Muslim">
+                <label for="Muslim">Muslim</label>
+
+                <input type="radio" name="Religion" id="Others" value="Others">
+                <label for="Others">Others</label>
+                <br><br>
+
+                <label for="Contact">Contact</label>
+                <input type="tel" 
+                name="Contact" 
+                id="Contact" 
+                placeholder="+911234567890"
+                pattern="[0-9]{10}">
+                <br><br>
+
+                <label for="Instagram">Instagram</label>
+                <input type="url" name="Instagram" id="Instagram" placeholder="https://www.example.com">
+                <br><br>
+
+                <label for="Aadhar">Aadhar card</label>
+                <input type="number" name="Aadhar" id="Aadhar" placeholder="Aadhar card Number">
+                <br><br>
+
+                <label for="Photo">Photo</label>
+                <input type="file" name="Photo" id="Photo" accept=".jpeg, .png">
+                <br><br>
+
+                <label for="Email">Email ID</label>
+                <input type="email" name="Email" id="Email" placeholder="Enter Email">
+                <br><br>
+
+                <label for="Assets">Assets</label>
+                <input type="number" name="Assets" id="Assets" placeholder="Assets">
+                <br><br>
+
+                <label for="Siblings">Siblings</label>
+                <input type="number" name="Siblings" id="Siblings" placeholder="Siblings">
+                <br><br>
+
+                
+                <label for="isMarried">Is Married</label>
+                <input type="radio" name="isMarried" id="Yes" value="Yes">
+                <label for="Yes">Yes</label>
+
+                <input type="radio" name="isMarried" id="No" value="No">
+                <label for="No">No</label>
+                <br><br>
+
+                <label for="Divorced">Divorced</label>
+                <input type="radio" name="Divorced" id="yes" value="yes">
+                <label for="yes">Yes</label>
+
+                <input type="radio" name="Divorced" id="no" value="no">
+                <label for="no">No</label>
+
+                <br><br>
+                <button>Submit</button>
+            </form>
+        </div>
+    </center>
+</body>
+</html>
+                 
+             
+
+
+             
+
+
+
+
+
